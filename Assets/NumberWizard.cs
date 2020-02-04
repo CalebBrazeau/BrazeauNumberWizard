@@ -7,12 +7,12 @@ public class Script : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("yeet");
+        Debug.Log("Welcome to number wizard \-(-_-)-/");
     }
 
     // Update is called once per frame
     void Update()
     {
-        print("Yeet0");
+
     }
 }
