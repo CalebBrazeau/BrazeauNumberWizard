@@ -32,13 +32,13 @@ public class NumberWixard : MonoBehaviour
             Debug.Log("Up arrow key was pressed");
         }
         //Input from player for down key
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             //prints this when player presses Down arrow key
             Debug.Log("Down arrow key was pressed");
         }
         //Input from player for Enter Key
-        if (Input.GetKeyDown(KeyCode.Return))
+        else if (Input.GetKeyDown(KeyCode.Return))
         {
             //prints this when player presses Enter Key
             Debug.Log("Enter key was pressed");
